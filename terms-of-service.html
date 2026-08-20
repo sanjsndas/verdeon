@@ -1,0 +1,1559 @@
+
+<!DOCTYPE html> 
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Verdeonojee - User Agreement & Terms</title>
+        <meta property="og:title" content="Verdeonojee - User Agreement & Terms" />
+        <meta property="og:image" content="main.png"/>
+        
+        <meta property="og:description" content="Verdeonojee - User Agreement & Terms" />
+        <meta name="description" content="Verdeonojee - User Agreement & Terms" />
+        
+        <link rel="shortcut icon" href="main.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet" />
+
+        
+
+
+        <style>
+            body{
+
+                font-family: 'EB Garamond', sans-serif !important;
+                direction: ltr;
+                font-size: 1em;
+                margin: 0;
+            }
+
+            *, *::before, *::after {
+                box-sizing: border-box;
+            }
+
+            :root {
+                --blob-radius-1: 64% 36% 49% 51% / 52% 41% 59% 48%;
+                --blob-radius-2: 72% 28% 34% 66% / 60% 44% 56% 40%;
+                --blob-radius-3: 58% 42% 68% 32% / 38% 72% 28% 62%;
+                --blob-radius-4: 81% 19% 41% 59% / 66% 54% 46% 34%;
+                --blob-radius-5: 45% 55% 70% 30% / 25% 65% 35% 75%;
+            }
+
+
+
+            .space-frame {
+                max-width: 1200px;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+            .value-blink-section {
+                direction: initial;
+                width: 100%;
+                overflow: hidden;
+                background: #00C9B1;
+                padding: 7px 0;
+                position: relative;
+            }
+
+            .value-blink-track {
+                display: flex;
+                width: fit-content;
+                animation: scroll-left 25s linear infinite;
+            }
+
+            .value-blink-content {
+                display: flex;
+            }
+
+            .value-blink {
+                margin: 0 43px;
+                font-size:  17px;
+                font-weight: 400;
+                color: #000;
+                white-space: nowrap;
+            }
+
+            @keyframes scroll-left {
+                0% {
+                    transform: translateX(0%);
+                }
+                100% {
+                    transform: translateX(-50%);
+                }
+            }
+
+            .first-impress-sect {
+                overflow: hidden;
+            }
+
+            .first-impress-heder {
+                padding-top: 13px;
+                padding-bottom: 13px;
+                background-color: #f6f6f6;
+            }
+
+            .fih-flex, .fih-logo, .fih-nav {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 7px;
+                text-decoration: none;
+                
+            }
+
+            .fih-flex {
+                justify-content: space-between;
+                padding-left: 15px;
+                padding-right: 15px;
+                width: 100%;
+            }
+
+            .fih-logo img {
+                width: 70px;
+                height: 70px;
+            }
+
+            .fih-logo h2 {
+                font-size: 22px;
+                font-weight: 400;
+                color: #000;
+                margin: 0;
+            }
+
+            .fih-nav a, .ezs-nav a {
+                font-size: 17px;
+                color: #000;
+                z-index: 10;
+                position: relative;
+                letter-spacing: 1px;
+                text-decoration: none;
+                width: fit-content;
+            }
+
+            .fih-nav a:hover, .ezs-nav a:hover {
+                color: #2B1F31;
+            }            
+
+            .fih-nav a:after, .ezs-nav a:after {
+                content: '';
+                width: 0;
+                height: 1px;
+                background: #2B1F31;
+                display: block;
+                margin: 1px 0 0 0;
+                line-height: 1px;
+                transition: all 0.3s ease 0s;
+            }
+
+            .fih-nav a:hover::after, .ezs-nav a:hover::after {
+                width: 100%;
+            }
+
+            .first-impress-banner {
+                overflow: hidden;
+                padding-top: 60px;
+                padding-bottom: 60px;
+                position: relative;
+                z-index: 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .fib-bg {
+                position: absolute;
+                z-index: -1;
+                width: 100%;
+                height: 100%;
+                background-image: url('uploads/2026_08/body-bg_q900.webp');
+                animation: kenburns-bottom 3s ease-out both infinite;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            @keyframes kenburns-bottom {
+                0% {
+                    transform: scale(1) translateY(0);
+                    transform-origin: 50% 84%;
+                }
+                100% {
+                    transform: scale(1.25) translateY(15px);
+                    transform-origin: bottom;
+                }
+            }
+
+            .fib-cloud {
+                width: fit-content;
+                height: fit-content;
+                max-width: 40%;
+                padding: 53px;
+                box-shadow: 0 8px 15px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);                
+                border-radius: var(--blob-radius-3);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                color: #333;
+                opacity: 0.9;
+                transition: box-shadow 0.4s ease;
+                background: radial-gradient(circle at 50% 50%, #ffffff 0%, #00C9B1 120%);
+            } 
+
+            .fib-name {
+                font-size: 22px;
+                font-weight: 800;
+                letter-spacing: 0px;
+                text-transform: inherit;
+                margin: 0;
+                margin-bottom: 7px;
+            }
+
+            .fib-txt {
+                font-size: 13px;
+                letter-spacing: 1px;
+                text-transform: lowercase;
+                margin: 0;
+                margin-bottom: 15px;
+            }
+            
+            .fib-title {
+                font-size: 22px;
+                margin: 0;
+                font-weight: 800;
+                text-align: center;
+                width: 80%;
+            }
+
+            .fib-name, .fib-title, .fib-txt {
+                animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+            }
+
+            @keyframes text-focus-in {
+                0% {
+                    -webkit-filter: blur(13px);
+                            filter: blur(13px);
+                    opacity: 0;
+                }
+                100% {
+                    -webkit-filter: blur(0px);
+                            filter: blur(0px);
+                    opacity: 1;
+                }
+            }
+
+            .brand-story-section {
+                padding-top: 60px;
+                padding-bottom: 60px;
+                background-color: #f6f6f6;
+            }
+
+            .brand-story-title {
+                font-size: 46px;
+                font-weight: 400;
+                text-align: center;
+                margin: 0;
+                margin-bottom: 26px;
+            }
+
+            .brand-story-flexbox {
+                display: flex;
+                flex-direction: row-reverse;
+                gap: 40px;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .brand-story-flexcol {
+                width: 28%;
+                display: flex;
+                flex-direction: column-reverse;
+                gap:  24px;
+                align-items: center;
+            }
+
+            .brand-benefits {
+                display: none;
+            }
+
+            .bsf-img {
+                width: 80%;
+                position: relative;
+            }
+
+            .bsf-img img {
+                width: 100%;
+                height: 237px;
+                object-fit: cover; 
+                z-index: 1;
+                position: relative; 
+                border-radius: var(--blob-radius-1);
+            }
+
+            .brand-story-flexcol:nth-child(2) {
+                width: 48%;
+            }
+
+            .brand-story-flexcol:nth-child(2) .bsf-img {
+                width: 100%;
+            }
+
+            .brand-story-flexcol:nth-child(2) .bsf-img img {
+                border-radius: var(--blob-radius-3);
+            }
+
+            .bsf-img::before {
+                content: "";
+                width: 143px;
+                height: 143px;
+                background: #00C9B1;
+                border-radius: var(--blob-radius-3);
+                position: absolute;
+                left: 0;
+                top: 13px;
+            }
+
+            .bsf-img::after {
+                content: "";
+                width: 143px;
+                height: 143px;
+                background: #00C9B1;
+                border-radius: var(--blob-radius-3);
+                position: absolute;
+                right: 0;
+                left: auto;
+                bottom: 13px;
+            }
+
+
+            .bsf-txt {
+                font-size: 13px;
+                line-height: 1.5;
+            }
+
+            .brand-story-flexcol:nth-child(2) .bsf-img::before {
+                content: "";
+                width: 216px;
+                height: 143px;
+                background: #00C9B1;
+                border-radius: var(--blob-radius-3);
+                position: absolute;
+                left: auto;
+                right: 0;
+                top: 0px;
+            } 
+
+            .brand-story-flexcol:nth-child(2) .bsf-img::after {
+                content: "";
+                width: 216px;
+                height: 143px;
+                background: #00C9B1;
+                border-radius: var(--blob-radius-3);
+                position: absolute;
+                left: 0;
+                bottom: 0px;
+            } 
+
+            .bsf-txt span {
+                color: #00C9B1;
+            }
+
+            .brand-story-flexcol:nth-child(2) .bsf-txt {
+                font-size: 17px;
+            }
+
+            .product-display-bg {
+                background-image: url('uploads/2026_08/body-bg_q901.webp');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;  
+                z-index: 0;  
+            }
+
+            .product-display-bgfilter {
+                position: absolute;
+                inset: 0;
+                backdrop-filter: blur(15px);
+                -webkit-backdrop-filter: blur(15px); 
+                background-color: rgba(255, 255, 255, 0.3); 
+                z-index: 1;
+            }
+
+            .space-frame.product-display {
+                position: relative;
+                z-index: 2;
+                padding: 26px;
+                color: #000; 
+            }
+
+            .product-display-title {
+                font-size: 46px;
+                font-weight: 800;
+                letter-spacing: 1px;
+                margin: 0;
+                margin-bottom: 53px;
+                text-align: center;
+                color: #000;
+            }
+
+            .prds-media {
+                width: 50%;
+                float: right;
+                margin: 0 15px 15px;
+                display: flex;
+                flex-direction: row;
+                gap: 24px;
+            }
+
+            .prds-img {
+                width: 100%;
+                height: 266px;  
+                box-shadow: 0 8px 20px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);                
+                border-radius: 10px;      
+                padding: 26px;
+                background: radial-gradient(circle at 50% 50%, #ffffff84 0%, #00C9B184 120%);
+            }
+
+            .prds-img img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+
+            .prds-info {
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 26px;
+            }
+            
+            .prds-price-box {
+                display: flex;
+                gap: 15px;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .old-price {
+                font-size: 17px;
+                color: #434343;
+                padding: 15px  7px;
+                border-radius: 10px;
+                border: 1px solid #434343;
+                text-decoration: line-through;
+                opacity: 1;
+                animation: fadeCycle 7s ease-in-out infinite;
+            }
+
+            .new-price {
+                font-size: 22px;
+                color: #fff;
+                padding: 15px  7px;
+                border-radius: 10px;
+                font-weight: 800;
+                animation: popIn 1s ease-in-out 2s forwards;
+                opacity: 0;
+                transform: scale(0.8);
+                box-shadow: 0 8px 20px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);                
+                background: radial-gradient(circle at 50% 50%, #ffffff84 0%, #00C9B184 120%);
+            }
+
+            @keyframes fadeCycle {
+                0% { opacity: 1; transform: translateY(0); }
+                42% { opacity: 1; }       
+                60% { opacity: 0; transform: translateY(-10px); }
+                100% { opacity: 0; transform: translateY(-10px); }
+            }
+
+            @keyframes popIn {
+                to {
+                opacity: 1;
+                transform: scale(1);
+                }
+            }
+
+            .prds-prod-view, .prds-prod-aviable, .prds-prod-code {
+                font-size: 13px;
+                font-weight: 800;
+                display: flex;
+                gap: 7px;
+                align-items: center;
+                color: #fff;
+                width: fit-content;
+                padding: 7px 43px;
+                border-radius: 10px;
+                box-shadow: 0 8px 20px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);                
+                background: radial-gradient(circle at 50% 50%, #ffffff84 0%, #00C9B184 120%);   
+            }
+
+            .prds-prod-aviable, .prds-prod-code {
+                margin-left: auto;
+            }
+
+            .prds-prod-view svg, .prds-prod-aviable svg, .prds-prod-code svg {
+                fill: #fff;
+                width: 34pxpx;
+                height: 34pxpx;
+            }
+
+            .prds-btn {
+                display: flex;
+                justify-content: center;
+            }
+
+            .prds-pay-box {
+                display: flex;
+                flex-direction: row;
+                gap: 24px;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .prds-pay-box img {
+                width: 143px;
+                height: auto;
+                object-fit: contain;
+            }
+
+            .prds-prod-desc {
+                font-size: 13px;
+                font-weight: 800;
+                text-transform: inherit;
+                margin: 0;
+                margin-bottom:  15px;
+            }
+
+            .prds-txt {
+                font-size: 13px;
+                line-height: 1.5;
+                color: #000;
+                margin-bottom:  15px;
+            }
+
+            .prds-glass-form {
+                width: 80%;
+                align-items: center;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 26px;
+                justify-content: center;
+                margin: 26px auto;
+                gap: 13px;
+                padding: 26px;
+                border-radius: 10px;
+                background: radial-gradient(circle at 50% 50%, #ffffff26 0%, #00C9B151 120%);
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                border: 1px solid rgba(255,255,255,0.25);
+                box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+                color: white;
+            }
+
+            .prds-glass-form > * {
+                flex: 1 1 45%;
+                min-width: 220px;
+            }
+
+            .prds-glass-form label {
+                font-weight: 800;
+                color: white;
+            }
+
+            .input-control-section__block {
+                padding: 7px 13px;
+                border: 1px solid rgba(255,255,255,0.3);
+                border-radius: 8px;
+                background: rgba(255,255,255,0.1);
+                color: #000;
+                font-size: 15px;
+                backdrop-filter: blur(4px);
+                transition: border-color 0.3s ease;
+            }
+
+            .input-control-section__block::placeholder {
+                color: rgba(255,255,255,0.7);
+            }
+
+            .input-control-section__block:focus {
+                border-color: #00C9B1;
+                outline: none;
+            }
+ 
+            .textarea-control-section__block {
+                padding: 7px 13px;
+                border: 1px solid rgba(255,255,255,0.3);
+                border-radius: 8px;
+                background: rgba(255,255,255,0.1);
+                color: #000;
+                font-size: 15px;
+                backdrop-filter: blur(4px);
+                transition: border-color 0.3s ease;
+            }
+
+            .textarea-control-section__block::placeholder {
+                color: rgba(255,255,255,0.7);
+            }
+
+            .textarea-control-section__block:focus {
+                border-color: #00C9B1;
+                outline: none;
+            }
+
+            .glass-form .pg-form-check,
+            .glass-form button,
+            .glass-form .btn-style {
+                flex-basis: 100%;
+                min-width: 0;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+            }
+
+            .pg-form-check {
+                display: flex;
+                align-items: center;
+                gap: 7px;
+                color: white;
+            }
+
+            .pg-form-check input {
+                width: 34pxpx;
+                height: 34pxpx;
+                accent-color: #00C9B1;
+            }
+              .pg-form-check textarea {
+                width: 34pxpx;
+                height: 34pxpx;
+                accent-color: #00C9B1;
+            }
+            .pg-form-check label {
+                font-size: 17px;
+                color: white;
+            }
+
+            .pg-form-check label a {
+                color: white;
+                text-decoration: underline;
+            }
+
+            .pg-form-check label a:hover {
+                color: #00C9B1;
+            }
+ 
+
+            .real-rewiews-section {
+                padding: 60px 0;
+                background-color: #f6f6f6;
+            }
+
+            .real-rewiews-title {
+                font-size: 46px;
+                font-weight: 400;
+                text-align: center;
+                margin: 0;
+                margin-bottom: 40px;
+            } 
+            
+            .real-rewiews-flexbox {
+                display: flex;
+                flex-direction: row;
+                gap: 40px;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .real-rewiews-media {
+                width: 45%;
+                float: left;
+                display: none;
+                border-radius: 10px;
+                background-image: url('uploads/2026_08/avatar2_sH0Oc_0.webp');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            .real-rewiews-img:nth-child(1) {
+                width: 45%;
+                height: 220px;
+                object-fit: cover;
+                margin-top: -15px;
+                margin-left: -15px;
+                margin-right: auto;  
+                background-color: #f6f6f6;
+                border-right: 15px solid #f6f6f6;        
+                border-bottom: 15px solid #f6f6f6;
+                border-radius: 10px 10px 10px 10px;  
+            }
+
+            .real-rewiews-img:nth-child(2) {
+                width: 45%;
+                height: 220px;
+                object-fit: cover;
+                border-radius: 10px;
+                margin-left: auto;  
+                margin-bottom: -15px;
+                margin-right: -15px;
+                background-color: #f6f6f6;  
+                border-left: 15px solid #f6f6f6;  
+                border-top: 15px solid #f6f6f6;    
+                border-radius: 10px 10px 10px 10px;       
+            }
+
+            .real-rewiews-img img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+
+            .real-rewiews-list {
+                width: 45%;
+                float: left;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 40px;
+            }
+
+            .real-rewiews-item {
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 15px;
+                position: relative;
+                background-color: #f9f3f3;
+                padding: 24px 15px;
+                border-radius: 25px;
+            }
+
+            .real-rewiews-item::before {
+                content: "";
+                position: absolute;
+                top: - 53px;
+                left: 0;
+                height: 80px;
+                width: 70px;
+                transform: rotate(180deg);
+                background: #f9f3f3;
+                clip-path: path("M0 0H79.9695V76.3123C80.0103 77.5714 80.0101 78.8022 79.9695 80V76.3123C79.0054 46.5602 55.1443 0.959397 0 0Z");
+            }
+
+            .rri-rating {
+                display: flex;
+                gap: 5px;
+                justify-content: flex-start;
+                align-items: center;
+                font-size: 44px;
+                font-weight: 800;
+                color: #00C9B1;
+            }
+
+            .rri-rating svg {
+                width: 50px;
+                height: 50px;
+                fill: #00C9B1;
+            }
+
+            .rri-comment {
+                font-size: 13px;
+                font-style: italic;
+                line-height: 1.5;
+                text-align: center;
+                color: #000;
+            }
+
+            .rri-author {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                align-items: center;
+                gap: 13px;
+            }
+
+            .rri-author img {
+                width: 70px;
+                height: 70px;;
+                border-radius: 100%;
+                object-fit: cover;
+            }
+
+            .rri-name {
+                font-size: 22px;
+                font-weight: 400;
+            }
+
+            .rri-author svg {
+                width: 50px;
+                height: 50px;
+                fill: #00C9B1;
+            }
+
+            .purchase-map-bg {
+                position: relative;
+                z-index: 0;
+                background-color: #00C9B1;
+                padding: 60px 0;
+            }
+
+            .purchase-map-bg img {
+                position: absolute;
+                top: 10%;
+                left: 3%;
+                z-index: 1;
+                width: fit-content;
+                height: 300px;
+                object-fit: contain;
+            }
+
+            .purchase-map-title {
+                font-size: 46px;
+                font-weight: 400;
+                text-align: center;
+                margin: 0;
+                margin-bottom: 43px;
+                color: #000;
+            }
+
+            .purchase-map-list {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 26px;
+            }
+
+            .purchase-map-item {
+                width: 30%;
+                padding: 26px 15px;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 15px;
+            }
+
+            .purchase-map-item:hover {
+                background-color: #4343437f;
+                box-shadow: 0 8px 20px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);                
+            }
+
+            .pm-inner {
+                display: flex;
+                flex-direction: row;
+                gap: 7px;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .pm-num span {
+                font-size: 27px;
+                font-weight: 800;
+                color: #00000080;
+            }
+
+            .pm-arrow {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 7px;
+            }
+
+            .pm-arrow svg {
+                width: 34pxpx;
+                height: 34pxpx;
+                fill: #000;
+            }
+
+            .pm-icon {
+                width: 70px;
+                height: 70px;
+                fill: #000;
+                border-radius: 50%;
+                border: 1px solid #000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .pm-icon svg {
+                width: 50px;
+                height: 50px;
+            }
+
+            .pm-title {
+                font-size: 22px;
+                font-weight: 400;
+                color: #000;
+                margin: 0;
+            }
+
+            .pm-txt {
+                font-size: 13px;
+                color: #000;
+                margin: 0;
+                margin-top: 7px;
+            }
+
+            .purchase-map-item:hover .pm-title {
+                color: #00C9B1;
+            }
+
+            .need-to-know-sect {
+                padding: 60px 0;
+                background-color: #f6f6f6;
+            }
+
+            .need-to-know-flexbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 40px;
+            }
+
+            .ntk-worktime {
+                width: 45%;
+                height: 587px;
+                position: relative;
+                z-index: 0;
+            }
+            
+            .ntk-worktime-img {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 1;
+                border-radius: var(--blob-radius-1);
+            }       
+            .ntk-worktime-img-img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: var(--blob-radius-1);
+            }
+
+            .ntk-worktime-txt {
+                padding: 43px;
+                background-color: #00C9B1;
+                border-radius: var(--blob-radius-3);
+                position: absolute; 
+                bottom: -43px;
+                left: auto;
+                right: -43px;
+                z-index: 3;
+            }
+
+            .ntk-worktime-txt h4 {
+                font-size: 27px;
+                font-weight: 400;
+                color: #fff;
+                margin: 0;
+                margin-bottom: 15px;
+            }
+            .ntk-worktime-txt p {
+                font-size: 17px;
+                color: #fff;
+                margin: 0;
+                line-height: 1.5;
+            }
+
+            .ntk-content {
+                width: 48%;
+            }
+
+            .ntk-content h2 {
+                font-size: 27px;
+                font-weight: 400;
+                color: #000;
+                margin: 0;
+                margin-bottom: 40px;
+            }
+
+           .ntk-faq-accordion {
+            margin: 32px auto;
+                border-radius: 10px;
+                background: #fff;
+                box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+                padding: 15px;
+            max-width: 800px;
+        }
+            
+        .ntk-faq-item {
+           margin-bottom: 13px;
+                border-bottom: 1px solid #eee;
+                padding-bottom: 7px;
+        }
+        
+        .ntk-faq-item input[type="checkbox"] {
+            display: none;
+        }
+            
+        .ntk-faq-question {
+           display: block;
+                font-weight: 800;
+                font-size: 17px;
+                cursor: pointer;
+                padding: 13px 0;
+            color: #333;
+            transition: color 0.3s ease;
+            position: relative;
+            
+            padding-right: 30px;
+        }
+
+        
+        .ntk-faq-question::after {
+            content: '▼';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: transform 0.3s ease;
+            font-size: 14px;
+            color: #666;
+        }
+            
+        .ntk-faq-item input[type="checkbox"]:checked + .ntk-faq-question {
+            color: #00C9B1;
+        }
+
+        .ntk-faq-item input[type="checkbox"]:checked + .ntk-faq-question::after {
+            transform: translateY(-50%) rotate(180deg);
+            color: #00C9B1;
+        }
+            
+      
+        .ntk-faq-answer {
+            max-height: 0;
+            overflow: hidden;
+           
+            transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+                       padding 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+                       opacity 0.3s ease;
+            font-size: {font-size-normal};
+            color: #444;
+              padding-left: 7px;
+            opacity: 0;
+            line-height: 1.6;
+        }
+        
+        .ntk-faq-item input[type="checkbox"]:checked ~ .ntk-faq-answer {
+           
+            max-height: 500px;
+            padding:  7px 0 7px 7px;
+            opacity: 1;
+        }
+
+  
+        .ntk-faq-question:hover {
+            color: #00C9B1;
+        }
+
+        .ntk-faq-question:hover::after {
+            color: #00C9B1;
+        }
+
+      
+        .ntk-faq-answer p {
+            margin: 0 0 12px 0;
+        }
+
+        .ntk-faq-answer p:last-child {
+            margin-bottom: 0;
+        }
+
+            .endzone-section-bg {
+                background-color: #00C9B1;
+            }
+
+            .endzone-section-bgoverlay {
+                background-image: url('uploads/2026_08/mask-bg_q800.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding: 60px 0 43px 0;
+            }
+
+            .endzone-section {
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                justify-content: center;
+                gap: 43px;
+            }
+
+            .ezs-flexcol {
+                width: 32%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 26px;
+            }
+
+            .ezs-nav-title {
+                font-size: 22px;
+                font-weight: 400;
+                color: #000;
+                margin: 0;
+            }
+
+            .ezs-logo-box {
+                flex-direction: column-reverse;
+                align-items: center;
+            }
+
+            .ezs-logo {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 7px;
+                text-decoration: none;
+            }
+
+            .ezs-logo img {
+                width: 50px;
+                height: 50px;
+            }       
+
+            .ezs-logo h2 {
+                font-size: 22px;
+                font-weight: 400;
+                color: #000;
+                margin: 0;
+            }
+            
+            .ezs-trust-client-title {
+                font-size: 22px;
+                font-weight: 800;
+                color: #000;
+                margin: 0;
+                margin-bottom: 15px;
+                text-align: center;
+            }
+
+            .ezs-trust-client-txt {
+                font-size: 13px;
+                color: #000;
+                margin: 15px 0;
+                text-align: center;
+            }
+
+            .ezs-contact-list {
+                gap: 13px;
+                flex-direction: column-reverse;
+            }
+            
+            .ezs-contact-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 7px;
+                color: #000;
+            }
+            .ezs-contact-item h4 {
+                text-align: center;
+                font-size: 17px;
+                font-weight: 400;
+                margin: 0;
+                word-break: break-all;
+            }   
+
+            .ezs-contact-item p, .ezs-contact-item a {
+                text-align: center;
+                font-size: 13px;
+                color: #000;
+                margin: 0;
+                text-decoration: none;
+                word-break: break-all;
+            }
+            .ezs-contact-item a:hover {
+                text-decoration: underline;
+            }
+
+            .prod-policy {
+                padding: 60px 0;
+                overflow: hidden;
+                word-break: break-all;
+            }
+
+
+        
+
+
+            .btn-style {
+                padding: 15px 30px;
+                border: none;
+                font-weight: 800;
+                font-size: 15px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+            }
+
+            .button-1 {
+                background: black;
+                color:  #f9f3f3;
+                border-radius: 5px;
+            }
+
+            .button-1:hover {
+                background:  #f9f3f3;
+                color: black;
+                border: 2px solid black;
+            }
+
+            .button-2 {
+                background:  #f9f3f3;
+                color: black;
+                border: 1px solid #ccc;
+                border-radius: 15px;
+                text-transform: uppercase;
+                box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+            }
+
+            .button-2:hover {
+                transform: translateY(-2px);
+                box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+            }
+
+            .button-3 {
+                background: #00C9B1;
+                color:  #f9f3f3;
+            }
+
+            .button-3:hover {
+                background: #00C9B1cf;
+            }
+
+            .button-4 {
+                background: #f1f1f1;
+                color: black;
+                border-radius: 50px;
+            }
+
+            .button-4:hover {
+                background: #00C9B1;
+                color:  #f9f3f3;
+                text-transform: uppercase;
+            }
+
+            .button-5 {
+                background: #00C9B1;
+                color:  #f9f3f3;
+                transform: scale(1);
+                border-radius: 6px;
+            }
+
+            .button-5:hover {
+                transform: scale(1.05);
+            }
+
+@media (max-width: 1650px) {
+
+    .purchase-map-bg img {
+        top: -15%;
+        height: 220px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .grid-shell {
+        max-width: 1140px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .fih-flex, .fih-logo, .fih-nav {
+        justify-content: center;
+        align-items: center;
+    }
+    .fih-flex {
+        justify-content: center !important;
+    }
+    .grid-shell {
+        max-width: 960px;
+    }
+
+    .fib-cloud {
+        width: 65%;
+        max-width: 65%;
+    }
+
+}
+
+@media(max-width: 767px)  {
+
+    .grid-shell {
+        max-width: 720px;
+    }
+
+    .fih-flex {
+        flex-wrap: wrap;
+    }
+
+    .fib-cloud {
+        width: 95%;
+        max-width: 95%;
+    }
+
+    .brand-benefits {
+        display: none;
+    }
+
+    .prds-media {
+        float: none;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .brand-story {
+        flex-direction: column !important;
+    }
+
+    .prds-glass-form {
+        width: 100%;
+        margin: 0;
+    }
+
+    .purchase-map-list {
+        flex-direction: column;
+    }
+
+    .real-rewiews-media {
+        display: none;
+    }
+
+    .real-rewiews-list {
+        flex-direction: column !important;
+    }
+
+    .purchase-map-item {
+        width: 100%;
+        background-color: #4343437f;
+        box-shadow: 0 8px 20px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .purchase-map-bg img {
+        display: none;
+    }
+
+    .need-to-know-flexbox {
+        flex-direction: column !important;
+    }
+
+    .ntk-worktime-txt {
+        width: 85%;
+    }
+
+    .endzone-section {
+        flex-direction: column;
+    }
+
+    .ezs-flexcol {
+        width: 100%;
+    }
+
+
+
+
+
+}
+
+@media(max-width: 576px) {
+
+    .grid-shell {
+        max-width: 540px;
+    }
+
+    .fib-cloud {
+        max-width: 99%;
+        width: 99%;
+        border-radius: 30px;
+        padding: 25px;
+    }
+
+    .fih-nav a {
+        font-size: 14px;
+    }
+
+}
+
+ 
+        </style>
+            
+        </head>
+
+        <body>
+            
+            
+
+            <header>
+                <section class="value-blink-section">
+                    <div class="value-blink-track">
+                        <div class="value-blink-content" id="vlblContent">
+                            <span class="value-blink">Verdeonojee</span>
+                            <span class="value-blink">Verdeonojee</span>
+                            <span class="value-blink">Verdeonojee</span>
+                            <span class="value-blink">Verdeonojee</span>
+                            <span class="value-blink">Verdeonojee</span>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="first-impress-sect">
+                    <div class="first-impress-heder">
+                        <div class="fih-flex">
+                            <a class="fih-logo" href="./">
+                                <img src="main.png" alt="">
+                                <h2> Verdeonojee </h2>
+                            </a>
+                            <nav class="fih-nav">
+                                <a href="./#about"> About us </a>
+                                
+                                <a href="./#comm">Comments</a>
+                                
+                                  
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="first-impress-banner">
+                        <div class="fib-bg"></div>
+                        <div class="fib-cloud">
+                            <h2 class="fib-name"> Verdeonojee </h2>
+                            <span class="fib-txt">Natural ingredients for an active life</span>
+                            <h1 class="fib-title"> Welcome to Verdeonojee, your trusted partner in personalized nutrition and wellness. Our expert nutritionists are dedicated to helping you achieve your health goals through tailored meal plans and guidance. Start your journey to a healthier lifestyle today with Verdeonojee's professional nutrition services designed just for you.</h1>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </header>
+
+            
+
+<div class="space-frame" >
+    <div class="prod-policy">
+        <div id="user-agreement">
+    <div class="introduction">
+        <h1>Terms of Service</h1>
+        <p>By accessing or utilizing the services and website provided by Verdeonojee, you are acknowledging and consenting to be bound by the stipulations set forth in these terms and conditions (referred to as the "Agreement"). It is imperative that you review this Agreement thoroughly before proceeding. Should you find any provision unacceptable, your recourse is to refrain from using our offerings.</p>
+    </div>
+
+    <div class="section-block" id="services-description">
+        <h2 class="section-block-title">Service Provisions</h2>
+        <p class="section-container-content">
+            Verdeonojee delivers a diverse range of services crafted to address various user requirements. Comprehensive details regarding these services are available on our official website. We maintain the prerogative to modify, enhance, or discontinue any service at our sole discretion, and without prior notification. Users are expected to routinely check the descriptions of our services for any revisions.
+        </p>
+    </div>
+
+    <div class="section-wrap" id="user-obligations">
+        <h2 class="section-wrap-title">User Obligations</h2>
+        <p class="section-wrap-content">
+            Your engagement with our services necessitates adherence to all applicable legal statutes and regulatory guidelines. You shall be solely accountable for all activities conducted via your account. You undertake not to exploit our services improperly, nor to facilitate such misuse by others. This commitment extends to, but is not limited to, refraining from interfering with our operational integrity or attempting unauthorized access by means not expressly sanctioned by us.
+        </p>
+    </div>
+
+    <div class="section-box" id="privacy-policy">
+        <h2 class="section-block-title">Data Privacy Assurance</h2>
+        <p class="section-block-content">
+            At Verdeonojee, safeguarding your privacy holds paramount importance. We are dedicated to ensuring the protection of any personal data you entrust to us. For a thorough understanding of our practices concerning the collection, retention, utilization, and disclosure of your personal details, please consult our comprehensive Privacy Policy. Where permissible by law, you retain the prerogative to access, rectify, or request the removal of your personal information held by us.
+        </p>
+    </div>
+
+    <div class="section-wrap" id="data-security">
+        <h2 class="section-wrap-title">Security Protocols for Information</h2>
+        <p class="section-box-content">
+            We implement stringent, industry-recognized security protocols designed to shield your data from illicit access, unintended revelation, alteration, or obliteration. While we endeavor to uphold the utmost standard of security for your information, it is essential to acknowledge that no data transmission over the internet or electronic storage system can be deemed perfectly impenetrable. Consequently, we are unable to warrant its absolute impregnability.
+        </p>
+    </div>
+
+    
+
+    <div class="section-container" id="amendments">
+        <h2 class="section-wrap-title">Amendments to These Terms</h2>
+        <p class="section-block-content">
+            Verdeonojee reserves the exclusive right to modify or update the provisions of this User Agreement whenever necessary. Should any changes be implemented, the "Effective Date" prominently displayed at the commencement of this document will be updated accordingly. It falls upon you to periodically review this Agreement for any revisions. Your continued utilization of our services subsequent to such modifications signifies your unqualified acceptance of the updated terms.
+        </p>
+    </div>
+
+    <div class="section-block" id="termination">
+        <h2 class="section-box-title">Suspension and Cessation of Services</h2>
+        <p class="section-wrap-content">
+            We retain the authority to temporarily halt or permanently discontinue your access to our services without preceding notice, should we determine that your conduct violates this Agreement or poses a potential detriment to other users, to our entity, or to external parties. Conversely, you are at liberty to discontinue your use of our services at any point you deem appropriate.
+        </p>
+    </div>
+
+    <div class="section-wrap" id="disclaimer">
+        <h2 class="section-block-title">Limitation of Warranties</h2>
+        <p class="section-block-content">
+            The services we provide are furnished exclusively on an "as is" and "as available" foundation, devoid of any guarantees, whether expressed or implied. This includes, but is not confined to, implied assurances of marketability, fitness for a particular objective, and absence of infringement. Verdeonojee offers no assurance that its services will operate without interruption or be entirely devoid of defects.
+        </p>
+    </div>
+
+    <div class="section-box" id="governing-law">
+        <h2 class="section-block-title">Governing Jurisdiction</h2>
+        <p class="section-box-content">
+            This Agreement, alongside any engagements you undertake with our services, shall be regulated by and construed in accordance with the legal framework of the United States. All judicial proceedings or legal claims arising from or connected to our services shall be initiated and pursued solely within the duly authorized courts situated within the United States.
+        </p>
+    </div>
+
+    <div class="footer" id="contact-info">
+        <p>Should you have any inquiries regarding these Terms of Service, kindly reach out to us using the communication channels provided on our official website.</p>
+        <p>Effective Date of Last Revision: 06/22/2026</p>
+    </div>
+</div>
+    </div>
+</div>
+
+
+
+            <footer>
+                <div class="endzone-section-bg">
+                    <div class="endzone-section-bgoverlay">
+                        <div class="space-frame endzone-section">
+                            <div class="ezs-flexcol ezs-nav">
+                                <h4 class="ezs-nav-title">Navigation</h4>
+                                <a class="ezs-nav-link" href="privacy.html" target="_blank">Privacy policy</a>
+                                <a class="ezs-nav-link" href="terms-of-service.html" target="_blank">Terms & Conditions</a>
+                                <a class="ezs-nav-link" href="disclaimer.html" target="_blank">Disclaimer</a>
+                            </div>
+                            <div class="ezs-flexcol ezs-logo-box">
+                                <a class="ezs-logo" href="./">
+                                    <img  src="main.png" alt="">
+                                    <h2> Verdeonojee  </h2>
+                                </a>
+                                <div class="ezs-trust-client">
+                                    <h4 class="ezs-trust-client-title"> Many satisfied customers trust us</h4>
+                                    <p class="ezs-trust-client-txt">Active users visit us every month: &nbsp; 127414&nbsp;Thd</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </footer>
+
+
+
+
+        
+
+        
+
+</body>
+</html>
